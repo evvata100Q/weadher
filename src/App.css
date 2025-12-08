@@ -120,6 +120,14 @@ input {
   color: black;
 }
 
+button {
+  transition: 0.2s ease-in-out;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
 @media (max-width: 600px) {
   .input-field {
     width: 90%;
